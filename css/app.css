@@ -1,0 +1,61 @@
+/* Home page */
+.toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 20px;
+}
+html{
+    background-color: aliceblue;
+}
+.products {
+    display: flex;
+    justify-content: center;
+    background-color:aliceblue;
+}
+.product {
+    width: 30%;
+    border: 2px solid rgb(255, 47, 47);
+    margin: 10px;
+    padding: 10px;
+    background-color: aliceblue;
+}
+
+.added {
+    color: white;
+    background-color: red;
+}
+
+/* Cart page */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+thead {
+    background-color: rgb(179, 255, 229);
+}
+
+td {
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: rgb(255, 175, 175);
+    width: 100%;
+}
+
+
+
+.prod-pic{
+    height:300px;
+    width:95%;
+}
+h3,p{
+    text-align: center;
+}
+/* p:hover{
+    text-shadow: 0px 0px 15px #ff5522;
+} */
